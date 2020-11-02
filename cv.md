@@ -39,7 +39,7 @@ In the long term I want to get job in growing IT company, to take a part in proj
 * [meteotur.ru](http://www.meteotur.ru/index.php) - my first experience in HTML and CSS
 * [go4gu.ru](https://go4gu.ru/) - my own blog on WordPress
 * Course for Frontend development from [UpSkill Lab (EPAM)](https://careers.epam.by/training/upskilllab)
-* []() - Main page of website, coding test (HTML5 and CSS3) from social initiative Free IT
+* [coding test](https://github.com/foxtrot2609/Example_of_last_work) - the main page of website, coding test (HTML5 and CSS3) from social initiative Free IT
 
 ## Education: 
 * __1991 ... 2001__ - Graduated from basic school with a silver medal.
