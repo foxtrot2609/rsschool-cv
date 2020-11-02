@@ -32,7 +32,9 @@ In the long term I want to get job in growing IT company, to take a part in proj
 * photography skills, confident work with Photoshop and other graphic editors
 * basic skills in work with video content and video editors
 
-## Code examples (LATEST)
+## Code examples 
+* [GitHub branch with latest code example](https://github.com/foxtrot2609/Example_of_last_work)
+
 ## Experience 
 * [meteotur.ru](http://www.meteotur.ru/index.php) - my first experience in HTML and CSS
 * [go4gu.ru](https://go4gu.ru/) - my own blog on WordPress
