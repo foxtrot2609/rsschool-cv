@@ -36,8 +36,15 @@ In the long term I want to get job in growing IT company, to take a part in proj
 * [GitHub branch with latest code example](https://github.com/foxtrot2609/Example_of_last_work)
 
 ## Experience 
-* [meteotur.ru](http://www.meteotur.ru/index.php) - my first experience in HTML and CSS
+* [meteotur.ru](http://www.meteotur.ru/index.php) - my first experience in web development 
+   * learned HTML and CSS from scratch
+   * created graphic design
+   * filled with content
+   * optimized for search engines
 * [go4gu.ru](https://go4gu.ru/) - my own blog on WordPress
+   * made changes to an existing theme
+   * customized and modified wordpress plugins
+   * filled with content
 * Course for Frontend development from [UpSkill Lab (EPAM)](https://careers.epam.by/training/upskilllab)
 * [coding test](https://github.com/foxtrot2609/Example_of_last_work) - the main page of website, coding test (HTML5 and CSS3) from social initiative Free IT
 
