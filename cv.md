@@ -57,4 +57,4 @@ In the long term I want to get job in growing IT company, to take a part in proj
 ## English: 
 _Pre-Intermediate (A2/B1)_
 
-* __September 2020 ... present__ - course for English level B1 from social initiative Free IT (teacher Alesya Reutava, reutava87@mail.ru, [personal page on Facebook](https://www.facebook.com/Aeany-?aooiaa-220567345931997))
+* __September 2020 ... present__ - course for English level B1 from social initiative Free IT (teacher Alesya Reutava, reutava87@mail.ru, [personal page on Facebook](https://www.facebook.com/alesia.english))
