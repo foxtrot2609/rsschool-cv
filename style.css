@@ -1,0 +1,92 @@
+body {
+    max-width: 1024px;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    border: 30px solid #aa4b9d;
+  }
+  
+  /* styles for part header */
+  header *:not(img) {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .name {
+    color: #fff;
+    background: #724272;
+  }
+  
+  h1 {
+    font-size: 40px;
+    padding: 20px 20px 0;
+  }
+  
+  .name p {
+    color: #cca973;
+    padding: 5px 20px 20px;
+  }
+  
+  img[alt="my photo"] {
+    float: right;
+    max-width: 17%;
+    border: 6px solid #cca973;
+    margin: 0 25px;
+  }
+  
+  .contact {
+    color: #fff;
+    background: #3b193c;
+  }
+  
+  .contact div {
+    display: inline-flex;
+    align-items: center;
+    width: 325px;
+    height: 30px;
+    margin: 5px 20px;
+  }
+  
+  img[src*="icons"] {
+    width: 20px;
+    height: 20px;
+    margin: 2px 10px 2px 0;
+  }
+  
+  .contact a:link, 
+  .contact a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    color: #cca973;
+    text-decoration: underline;
+  }
+  
+  /* styles for part main */
+  h2 {
+    color: #cca973;
+    border-bottom: 3px solid #cca973;
+  }
+  
+  main section {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 0 20px;
+  }
+  
+  main p {
+    text-indent: 40px;
+  }
+  
+  quote {
+    background: #fde6c3;
+  }
+  
+  main a:link, 
+  main a:visited {
+    color: #772eee;
+  }
+  
+  
