@@ -82,6 +82,10 @@ img[alt="my photo"] {
 
 /* start of main */
 
+main {
+  text-align: justify;
+}
+
 .columns {
   display: flex;
 }
