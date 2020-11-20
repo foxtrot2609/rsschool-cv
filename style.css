@@ -45,7 +45,7 @@ h1 {
 .contact div {
   display: flex;
   align-items: center;
-  width: 325px;
+  width: 330px;
   margin: 5px 5px 5px 0;
 }
 
@@ -125,7 +125,7 @@ main a:visited {
 
 /* media query */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 760px) {
   header {
     flex-direction: column;
     background: #3b193c;
