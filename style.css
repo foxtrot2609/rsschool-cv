@@ -4,12 +4,11 @@ body {
   min-width: 480px;
   margin: 0 auto;
   border: 30px solid #aa4b9d;
-  font-family: Verdana, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 header {
   display: flex;
-  font-family: Arial, sans-serif;
 }
 
 .header-info {
@@ -83,7 +82,7 @@ img[alt="my photo"] {
 
 /* start of main */
 
-main {
+.columns {
   display: flex;
 }
 
@@ -134,7 +133,7 @@ main a:visited {
   img[alt="my photo"] {
     max-width: 30%;
   }
-  main {
+  .columns {
     display: flex;
     flex-direction: column;
   }
