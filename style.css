@@ -7,19 +7,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* start of header */
+
 header {
   display: flex;
-}
-
-.header-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.name {
-  color: #fff;
-  background: #724272;
-  padding: 5px 0 5px 20px;
 }
 
 h1 {
@@ -28,13 +19,19 @@ h1 {
   padding: 5px 0;
 }
 
-.name p {
+section.name {
+  color: #fff;
+  background: #724272;
+  padding: 5px 0 5px 20px;
+}
+
+section.name p {
   color: #cca973;
   margin: 0;
   padding: 5px 0;
 }
 
-.contact {
+section.contact {
   display: flex;
   flex-wrap: wrap;
   color: #fff;
@@ -42,38 +39,43 @@ h1 {
   padding: 10px 0 10px 20px;
 }
 
-.contact div {
+section.contact div {
   display: flex;
   align-items: center;
   width: 330px;
   margin: 5px 5px 5px 0;
 }
 
-img[src*="icons"] {
+section.contact img {
   max-width: 1.5em;
   margin-right: 10px;
 }
 
-.location p {
-  margin: 0;
-}
-
-.contact a:link, 
-.contact a:visited {
+section.contact a:link, 
+section.contact a:visited {
   color: #fff;
   text-decoration: none;
 }
 
-.contact a:hover {
+section.contact a:hover {
   color: #cca973;
   text-decoration: underline;
 }
 
-.my-photo {
+div.header-info {
+  display: flex;
+  flex-direction: column;
+}
+
+div.location p {
+  margin: 0;
+}
+
+div.my-photo {
   background: #3b193c;
 }
 
-img[alt="my photo"] {
+div.my-photo img {
   max-width: 100%;
   min-width: 110px;
   box-sizing: border-box;
@@ -82,22 +84,17 @@ img[alt="my photo"] {
 
 /* start of main */
 
-main {
-  text-align: justify;
-}
-
-.columns {
-  display: flex;
-}
-
-.left-col, 
-.right-col {
-  width: 50%;
-}
-
 h2 {
   color: #cca973;
-  border-bottom: 3px solid #cca973;
+  border-bottom: 4px solid #cca973;
+}
+
+span {
+  background: #fde6c3;
+}
+
+main {
+  text-align: justify;
 }
 
 main section {
@@ -110,8 +107,13 @@ main p {
   text-indent: 40px;
 }
 
-span {
-  background: #fde6c3;
+div.columns {
+  display: flex;
+}
+
+div.left-column, 
+div.right-column {
+  width: 50%;
 }
 
 main a:link, 
@@ -119,7 +121,7 @@ main a:visited {
   color: #772eee;
 }
 
-.marker li::marker {
+ul.marker li::marker {
   color: #cca973;
 }
 
@@ -130,19 +132,23 @@ main a:visited {
     flex-direction: column;
     background: #3b193c;
   }
-  .my-photo {
+
+  div.my-photo {
     order: -1;
     margin-left: 20px;
   }
-  img[alt="my photo"] {
+
+  div.my-photo img {
     max-width: 30%;
   }
-  .columns {
+
+  div.columns {
     display: flex;
     flex-direction: column;
   }
-  .left-col, 
-  .right-col {
+  
+  div.left-column, 
+  div.right-column {
     width: 100%;
   }
 }
