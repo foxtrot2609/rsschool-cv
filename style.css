@@ -7,31 +7,40 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* start of header */
-
-header {
-  display: flex;
-}
-
 h1 {
   font-size: 40px;
   margin: 0;
   padding: 5px 0;
 }
 
-section.name {
+h2 {
+  color: #cca973;
+  border-bottom: 4px solid #cca973;
+}
+
+span.highlight {
+  background: #fde6c3;
+}
+
+/* start of header */
+
+header {
+  display: flex;
+}
+
+header .name {
   color: #fff;
   background: #724272;
   padding: 5px 0 5px 20px;
 }
 
-section.name p {
+header .name p {
   color: #cca973;
   margin: 0;
   padding: 5px 0;
 }
 
-section.contact {
+header .contact {
   display: flex;
   flex-wrap: wrap;
   color: #fff;
@@ -39,43 +48,43 @@ section.contact {
   padding: 10px 0 10px 20px;
 }
 
-section.contact div {
+header .contact div {
   display: flex;
   align-items: center;
   width: 330px;
   margin: 5px 5px 5px 0;
 }
 
-section.contact img {
+header .contact img {
   max-width: 1.5em;
   margin-right: 10px;
 }
 
-section.contact a:link, 
-section.contact a:visited {
+header .contact a:link,
+header .contact a:visited {
   color: #fff;
   text-decoration: none;
 }
 
-section.contact a:hover {
+header .contact a:hover {
   color: #cca973;
   text-decoration: underline;
 }
 
-div.header-info {
+header .header-info {
   display: flex;
   flex-direction: column;
 }
 
-div.location p {
+header .location p {
   margin: 0;
 }
 
-div.my-photo {
+header .my-photo {
   background: #3b193c;
 }
 
-div.my-photo img {
+header .my-photo img {
   max-width: 100%;
   min-width: 110px;
   box-sizing: border-box;
@@ -83,15 +92,6 @@ div.my-photo img {
 }
 
 /* start of main */
-
-h2 {
-  color: #cca973;
-  border-bottom: 4px solid #cca973;
-}
-
-span {
-  background: #fde6c3;
-}
 
 main {
   text-align: justify;
@@ -107,21 +107,21 @@ main p {
   text-indent: 40px;
 }
 
-div.columns {
+main .columns {
   display: flex;
 }
 
-div.left-column, 
-div.right-column {
+main .left-column,
+main .right-column {
   width: 50%;
 }
 
-main a:link, 
+main a:link,
 main a:visited {
   color: #772eee;
 }
 
-ul.marker li::marker {
+main ul.marker li::marker {
   color: #cca973;
 }
 
@@ -133,22 +133,22 @@ ul.marker li::marker {
     background: #3b193c;
   }
 
-  div.my-photo {
+  header .my-photo {
     order: -1;
     margin-left: 20px;
   }
 
-  div.my-photo img {
+  header .my-photo img {
     max-width: 30%;
   }
 
-  div.columns {
+  main .columns {
     display: flex;
     flex-direction: column;
   }
-  
-  div.left-column, 
-  div.right-column {
+
+  main .left-column,
+  main .right-column {
     width: 100%;
   }
 }
