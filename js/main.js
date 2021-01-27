@@ -2,7 +2,7 @@
 
 const time = document.getElementById("time"),
   greeting = document.getElementById("greeting"),
-  name = document.getElementById("name"),
+  myName = document.getElementById("name"),
   focus = document.getElementById("focus");
 
 // Show time
@@ -52,8 +52,26 @@ function setBgGreet() {
   }
 }
 
+// Get Name
+function getName() {
+  if (localStorage.getItem("name") === null) {
+    myName.textContent = "[Enter Name]";
+  } else {
+    myName.textContent = localStorage.getItem("name");
+  }
+}
 
+// Get Focus
+function getFocus() {
+    if (localStorage.getItem("focus") === null) {
+      focus.textContent = "[Enter Focus]";
+    } else {
+      focus.textContent = localStorage.getItem("focus");
+    }
+  }
 
 // Run
 showTime();
 setBgGreet();
+getName();
+getFocus();
