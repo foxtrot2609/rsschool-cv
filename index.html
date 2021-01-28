@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+        <div class="time-select">
+            <button data-time="120">2 Minutes</button>
+            <button data-time="300">5 Minutes</button>
+            <button data-time="600">10 Minutes</button>
+        </div>
+        <div class="player-container">
+            <audio class="song">
+                <source src="sounds/rain.mp3">
+            </audio>
+            <img src="svg/play.svg" alt="play" class="play">
+        </div>
+        <div class="sound-picker"></div>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
