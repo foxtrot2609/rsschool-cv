@@ -26,13 +26,18 @@
     position: relative;
 }
 
+.player-container .play {
+    cursor: pointer;
+}
+
 .player-container svg {
     position: absolute;
     height: 50%;
     /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
-    pointer-events: none; */
+    transform: translate(-50%, -50%);  */
+    transform: rotate(-90deg);
+    pointer-events: none;
 }
 
 .time-display {
