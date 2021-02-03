@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CSS Variables and JS</title>
 </head>
+
 <body>
-    <div class="panels">
-        <div class="panel panel1">
-            <p></p> 
-            <p></p> 
-            <p></p> 
-        </div> 
-        <div class="panel panel2">
-            <p></p> 
-            <p></p> 
-            <p></p> 
-        </div> 
-        <div class="panel panel3">
-            <p></p> 
-            <p></p> 
-            <p></p> 
-        </div> 
-        <div class="panel panel4">
-            <p></p> 
-            <p></p> 
-            <p></p> 
-        </div> 
-        <div class="panel panel5">
-            <p></p>
-            <p></p>
-            <p></p>
+
+    <h1>Simple Photo Editor</h1>
+    <div class="wrapper">
+        <div class="image">
+            <img src="img/butterfly.jpg" alt="butterfly">
+        </div>
+
+        <div class="controls">
+            <h2>filters</h2>
+            <label>Base color:<br> 
+                <input type="color" name="base" value="#fafdfa">
+            </label>
+            <label>Spacing:<br>
+                <input type="range" name="spacing" min="15" max="85" value="70" data-sizing="%">
+            </label>
+            <label>Blur:<br>
+                <input type="range" name="blur" min="0" max="25" value="0" data-sizing="px">
+            </label>
+            <label>Invert:<br>
+                <input type="range" name="invert" min="0" max="100" value="0" data-sizing="%">
+            </label>
+            <label>Sepia:<br>
+                <input type="range" name="sepia" min="0" max="100" value="0" data-sizing="%">
+            </label>
         </div>
     </div>
+
     <script src="main.js"></script>
 </body>
+
 </html>
